@@ -1,0 +1,7 @@
+print('What is your name?')
+my_name = input()
+print('What month were you born in ' + my_name + '?')
+bDayMonth = input()
+if bDayMonth == 'January': print('Happy birth month!')
+name_length = len(my_name)
+print('Your name is ' + str(name_length) + ' letters long.')
